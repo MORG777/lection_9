@@ -1,0 +1,57 @@
+header{}
+.bottom-divider{
+    padding:0 0 20px 0; 
+    border-bottom:1px #ccc solid}
+
+.search-form-wrapper{}
+.search-form{
+    margin-top:34px; 
+    width:300px; 
+    float: right; 
+    margin-right:0}
+    .search-form .col{
+        margin:0;
+         padding:0 3px;}
+.search-form-submit{
+    border-radius:10px;}
+.search-form-input{
+    border-radius:10px;}
+
+.btn-red{
+    color:#fff;
+     background:red;
+     text-transform:uppercase; 
+     border-radius:10px;}
+.field-black{
+    background:#333; 
+    color:#ccc;}
+.bordered-img{
+    border:1px #ccc solid; 
+    background:#fff; 
+    padding:5px;}
+
+.nav-main{
+    list-style:none;
+    margin:13px 0 0 -29px;
+     padding:0; 
+     display:flex; 
+     justify-content: start; 
+     text-transform:uppercase;
+      font-size:.88em;}
+    .nav-main-item{
+        padding:0;
+        position: relative;}
+        .nav-main-item-link{
+            padding: 6px 14px; 
+            color:#333}
+        .nav-main-item-link:hover{color:red}
+        .nav-main-item.active .nav-main-item-link{color:red}
+        .nav-main-item-dropdown{list-style:none;padding:0;margin:0; position: absolute; left:0;top:100%; display:none; white-space: nowrap;}
+        .nav-main-item:hover .nav-main-item-dropdown {display:block}
+
+.social-icons{display:flex;justify-content: flex-end; font-size:1.2em; align-items:flex-start; padding-right:0; flex: 56px}
+    .social-icons-item{ color:#fff; display: inline-block; display:inline-block; border-radius:50%; background:#333; margin-left:10px;}
+        .social-icons-item-ico{ margin:7px;   }
+    .social-icons-item:hover{background:red; color:#fff}
+
+.nav-n-social{margin:18px 0 0;}
